@@ -1,0 +1,349 @@
+
+/* Tomato color: #FF6347 */
+
+/* Google Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+/* for p */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto+Slab:wght@400&display=swap');
+
+
+
+body{
+    display: block;
+    overflow-x: hidden;
+    background-color: red;
+}
+
+nav{
+    background-color: white;
+
+}
+
+.navbar-brand img{
+    max-height: 80px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    /* text-transform: uppercase; */
+    font-weight: 900px;
+    color: #FF6347;
+}
+
+
+nav ul li a{
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px;
+
+}
+
+nav ul li a:hover{
+    color: #FF6347;
+}
+
+/* common for all section tags */
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: tomato;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+section p{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: 'Lexend Mega', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+#hero .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img{
+    max-width: 100% !important;
+    width: 100%;
+}
+
+#hero .card{
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+
+#hero .icon{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+#about-us img{
+
+    height: 130%;
+    width: 130%;
+}
+
+#contact-us .img-col{
+    height: 100px;
+    width: 100px;
+}
+
+.img-wave{
+    height: 100%;
+
+}
+
+.btn-tomato{
+    background-color: tomato !important;
+}
+
+.wrapper{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+.bottom{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.img-up{
+    transition: transform 400ms linear;
+}
+
+.img-up:hover{
+    transform: translateY(-1em);
+
+}
+
+#hero{
+    background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-size: cover;
+}
+
+#contact-us{
+    background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-size: cover;
+}
+
+.bottom-wave-contact{
+    margin-top: 50px;
+    margin-bottom: -50px;
+    width: 100%;
+    background-image: none;
+    height: 100px;
+}
+
+#banner{
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    /* background-image:  linear-gradient(to right, #f2709c, #ff9472); */
+    /* background-image: linear-gradient(to right, #ec6f66, #f3a183); */
+    background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+}
+
+#signup{
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    /* background-image:  linear-gradient(to right, #f2709c, #ff9472); */
+    /* background-image: linear-gradient(to right, #ec6f66, #f3a183); */
+    background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+}
+
+.bottom-wave{
+    margin-top: 100px;
+    width: 100%;
+    background-image: none;
+    height: 100px;
+}
+
+.bottom-wave-hero{
+    margin-top: 50px;
+    margin-bottom: -50px;
+    width: 100%;
+    background-image: none;
+    height: 100px;
+}
+
+
+/* for login */
+.login-wave{
+    margin-top: 90px;
+    width: 100%;
+    background-image: none;
+    height: 150px;
+}
+
+/* for signup */
+.bottom-wave-signup{
+    margin-top: 0px;
+    width: 100%;
+    background-image: none;
+    height: 50px;
+}
+
+.login-fields{
+    border-radius: 30px !important;
+}
+
+.login-extras{
+    text-decoration: none;
+    color: red;
+}
+
+.login-extras:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.signuph1{
+    margin-top: -150px;
+}
+
+/* just to turn off the number spinner in number fields */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.wave-forgot{
+    margin-top: 85px;
+    width: 100%;
+    background-image: none;
+    height: 150px;
+}
+
+.red{
+    color:red;
+}
+
+.forgot-a-next{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color:black;
+}
+
+.img-right{
+    height: 50px;
+    width: 50px;
+    transition: transform 400ms linear;
+}
+
+.img-right:hover{
+    transform: translateX(.5em);
+
+}
+
+.security-wave{
+    margin-top: 85px;
+    width: 100%;
+    background-image: none;
+    height: 150px;
+}
+
+/* we had to use !important because it was taking styles from bootstrap */
+
+.card-title{
+    color: black !important;
+}
+
+.card-text{
+    color: black !important;
+    padding-top: 10px !important;
+}
+
+#banner-restaurant{
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    /* background-image:  linear-gradient(to right, #f2709c, #ff9472); */
+    /* background-image: linear-gradient(to right, #ec6f66, #f3a183); */
+    background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+}
+
+.order-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 40%;
+}
+
+.order-img:hover{
+    cursor: pointer;
+}
+
+
+.card{
+    border-radius: 50px !important;
+}
+
+.h1-with-margin{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    /* text-align: center; */
+    color: black;
+}
+
+.margin-l{
+    margin-left: 25%;
+}
+
+.dropdown-item{
+    width:90% !important;
+}
+
+.editprofileh1{
+    margin-top: -150px;
+    color: black;
+}
+
+.label-atc{
+    color: black;
+}
+
+#banner-myorders{
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    /* background-image:  linear-gradient(to right, #f2709c, #ff9472); */
+    /* background-image: linear-gradient(to right, #ec6f66, #f3a183); */
+    background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+}
